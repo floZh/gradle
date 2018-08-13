@@ -45,6 +45,13 @@ The following are the newly deprecated items in this Gradle release. If you have
 ### Example breaking change
 -->
 
+### Changes to previously deprecated APIs
+
+- Removed the methods `stopExecutionIfEmpty` and `add` from `FileCollection`.
+- Removed the ability to cast (Groovy `as`) `FileCollection` to `File[]` and `File`.
+- Removed the class `SimpleFileCollection`.
+- Removed the method `getBuildDependencies` from `AbstractFileCollection`. 
+
 ## External contributions
 
 We would like to thank the following community members for making contributions to this release of Gradle.
